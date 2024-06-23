@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import Application,CommandHandler,MessageHandler,filters,ContextTypes
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-TOKEN = '7343783425:AAFkNB18VNWLfPD81EdFEbtYfyuMSR-ZqpU'
-USERNAME = '@Python1233bot'
+TOKEN = 'Your_Bot_Token'
+USERNAME = 'Your_Bot_Username'
 PROXY_URL = "http://167.88.175.18:34567"
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
